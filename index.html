@@ -1,0 +1,868 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vapes Descartáveis em Porto</title>
+    <meta
+      name="description"
+      content="Compra vapes descartáveis no Porto com entrega rápida em Portugal. Descobre cigarros eletrónicos com sabores premium, longa duração e marcas populares. Vapes prontos a usar com experiência intensa e envio rápido no Porto."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+    <script>
+      (function () {
+        try {
+          if (window.localStorage.getItem("vapeporto_age_verified") !== "true") {
+            document.documentElement.classList.add("age-gate-pending");
+          }
+        } catch (error) {
+          document.documentElement.classList.add("age-gate-pending");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  </head>
+  <body>
+    <div class="age-gate" id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageGateTitle">
+      <div class="age-gate__card">
+        <p class="eyebrow">Acesso restrito</p>
+        <h2 id="ageGateTitle">Tem 18 anos ou mais?</h2>
+        <p>
+          Este site contém produtos com nicotina. A nicotina é uma substância aditiva.
+        </p>
+        <div class="age-gate__actions">
+          <button class="btn btn--primary" id="confirmAge" type="button">Sim</button>
+          <button class="btn btn--ghost" id="denyAge" type="button">Não</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-alert">
+     AVISO: ESTE PRODUTO CONTÉM NICOTINA. A NICOTINA É UMA SUBSTÂNCIA ADITIVA.
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="header-brand" href="https://vapeportugal.pt/" aria-label="Vape Descartável">
+          <img src="favicon-96x96.png" alt="Vape Porto logo" class="logo" />
+          <span class="brand">Vape Descartável</span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-expanded="false"
+          aria-controls="siteNav"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="siteNav">
+          <a href="https://vapeportugal.pt/">Página Inicial</a>
+          <a href="https://vapeportugal.pt/">Produtos</a>
+          <a href="https://vapeportugal.pt/">Sobre Nós</a>
+          <a href="https://vapeportugal.pt/">Blog</a>
+          <a href="https://vapeportugal.pt/">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Vapes Descartáveis em Portugal</p>
+            <h1>Comprar Vapes Descartáveis em Porto</h1>
+            <p class="hero-text">
+              Descubra tragadas intensas com os nossos vapes descartáveis prontos a usar. 
+              Cada cigarro eletrónico combina sabor, autonomia e uma experiência direta para desfrutar hoje.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="https://vapeportugal.pt/">Compre já!</a>
+              <a class="btn btn--secondary" href="https://vapeportugal.pt/">Ver mais</a>
+            </div>
+            <ul class="hero-points">
+             <li>Entrega rápida em todo Portugal</li>
+             <li>Sabores premium e marcas populares</li>
+             <li>Design responsivo inspirado no site original</li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card hero-card--large">
+              <img src="img/Vape-Descartável-Portugal-JNR-VapSolo-Fumot.png" alt="Colagem de vapes descartáveis" class="product-image">
+            </div>
+            <div class="hero-badge">
+              <strong>120K</strong>
+              <span>Tragadas de topo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="destacados">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Seleção principal</p>
+            <h2>Vapes Descartáveis em Porto</h2>
+            <p>
+              Descobre os melhores vapes descartáveis em destaque na nossa vape shop em Portugal. Explora cigarros eletrónicos com milhares de tragadas, sabores intensos e designs modernos criados para proporcionar uma experiência de vaping premium e duradoura.
+            </p>
+          </div>
+          <div class="product-grid product-grid--featured">
+            <article class="product-card">
+              <img src="img/VapSolo-Triple-Pro-60K-Vape-Descartável-Portugal-Blackcurrant-Ice-Pink-Lemonade-Kiwi-Passion-Fruit-Guava-60000-Tragadas.png" alt="Vape Descartavel VapSolo Triple Pro 60K" class="product-image">
+              <h3>VapSolo Triple Pro 60K</h3>
+              <p class="product-meta">60000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal"
+                >Compre já!</a
+              >
+            </article>
+            <article class="product-card">
+              <img src="img/Fumot-Digital-Monkey-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Fumot Digital Monkey 40K" class="product-image">
+              <h3>Fumot Digital Monkey 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-digital-monkey-40k-vape-descartavel-portugal"
+                >Compre já!</a
+              >
+            </article>
+            <article class="product-card">
+              <img src="img/JNR-MegaBoxPro-50K-Vape-Descartável-Portugal-50000-Tragadas.png" alt="Vape Descartavel JNR Mega Box Pro 50K" class="product-image">
+              <h3>JNR Mega Box Pro 50K</h3>
+              <p class="product-meta">50000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-mega-box-pro-50k-vape-descartavel-portugal"
+                >Compre já!</a
+              >
+            </article>
+            <article class="product-card">
+              <img src="img/MerryMi-M-Mecha-16K-Vape-Descartável-Portugal-16000-Tragadas.png" alt="Vape Descartavel MerryMi M-Mecha 16K" class="product-image">
+              <h3>MerryMi M-Mecha 16K</h3>
+              <p class="product-meta">16000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-m-mecha-16k-vape-descartavel-portugal"
+                >Compre já!</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="productos">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Catálogo</p>
+            <h2>Coleções de cigarros eletrónicos descartáveis</h2>
+            <p>Explora coleções premium de vapes descartáveis das marcas mais procuradas em Portugal. Descobre cigarros eletrónicos com sabores intensos, milhares de tragadas e designs modernos criados para uma experiência de vaping prática, duradoura e satisfatória.
+            </p>
+          </div>
+
+          <div class="filter-chips" id="filterChips">
+            <button class="chip is-active" data-filter="VapSolo">VapSolo</button>
+            <button class="chip" data-filter="JNR">JNR</button>
+            <button class="chip" data-filter="Fumot">Fumot</button>
+            <button class="chip" data-filter="MerryMi">MerryMi</button>
+            <button class="chip" data-filter="Adalya">Adalya</button>
+            <button class="chip" data-filter="Al Fakher">Al Fakher</button>
+            <button class="chip" data-filter="Blur">Blur</button>
+            <button class="chip" data-filter="Ghost">Ghost</button>
+            <button class="chip" data-filter="Hayati">Hayati</button>
+            <button class="chip" data-filter="Vozol">Vozol</button>
+          </div>
+
+          <div class="product-grid" id="catalogGrid">
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-Blade-30K-Vape-Descartável-Portugal-30000-Tragadas.png" alt="Vape Descartavel MerryMi Blade 30K" class="product-image">
+              <h3>MerryMi Blade 30K</h3>
+              <p class="product-meta">30000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merry-mi-blade-30k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-M-Mecha-16K-Vape-Descartável-Portugal-16000-Tragadas.png" alt="Vape Descartavel MerryMi M-Mecha 16K" class="product-image">
+              <h3>MerryMi M-Mecha 16K</h3>
+              <p class="product-meta">16000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-m-mecha-16k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-Mecha-X-28K-Vape-Descartável-Portugal-28000-Tragadas.png" alt="Vape Descartavel MerryMi Mecha X 28K" class="product-image">
+              <h3>MerryMi Mecha X 28K</h3>
+              <p class="product-meta">28000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-mecha-x-28k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-Panda-Twins-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel MerryMi Panda Twins 40K" class="product-image">
+              <h3>MerryMi Panda Twins 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-panda-twins-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-MK2000-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Vape Descartavel MerryMi MK2000 20K" class="product-image">
+              <h3>MerryMi MK2000 20K</h3>
+              <p class="product-meta">20000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-mk20000-20k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-Panda-X-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel MerryMi Panda X 40K" class="product-image">
+              <h3>MerryMi Panda X 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merrymi-panda-x-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-WiFlux-24K-Vape-Descartável-Portugal-24000-Tragadas.png" alt="Vape Descartavel MerryMi WiFlux 24K" class="product-image">
+              <h3>MerryMi WiFlux 24K</h3>
+              <p class="product-meta">24000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merry-mi-wiflux-24k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="MerryMi">
+              <img src="img/MerryMi-Mecha-Pro-35K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel MerryMi Mecha Pro 35K" class="product-image">
+              <h3>MerryMi Mecha Pro 35K</h3>
+              <p class="product-meta">35000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/merry-mi-mecha-pro-35k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-MegaBoxPro-50K-Vape-Descartável-Portugal-50000-Tragadas.png" alt="Vape Descartavel JNR Mega Box Pro 50K" class="product-image">
+              <h3>JNR Mega Box Pro 50K</h3>
+              <p class="product-meta">50000 Tragadas
+              </p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-mega-box-pro-50k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-RageGorilla-55K-Vape-Descartável-Portugal-55000-Tragadas.png" alt="Vape Descartavel JNR Rage Gorilla 55K" class="product-image">
+              <h3>JNR Rage Gorilla 55K</h3>
+              <p class="product-meta">55000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-ragegorilla-55k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Quads-4-em-1-120K-Vape-Descartável-Portugal-120000-Tragadas.png" alt="Vape Descartavel JNR Quads 120K" class="product-image">
+              <h3>JNR Quads 120K</h3>
+              <p class="product-meta">120000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-quads-120k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-MegaBox-25K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel JNR Mega Box 25K" class="product-image">
+              <h3>JNR Mega Box 25K</h3>
+              <p class="product-meta">25000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-mega-box-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Leopard-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel JNR Leopard 40K" class="product-image">
+              <h3>JNR Leopard 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-leopard-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Falcon-16K-Vape-Descartável-Portugal-16000-Tragadas.png" alt="Vape Descartavel JNR Falcon 16K" class="product-image">
+              <h3>JNR Falcon 16K</h3>
+              <p class="product-meta">16000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-falcon-16k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Falcon-X-18K-Vape-Descartável-Portugal-18000-Tragadas.png" alt="Vape Descartavel JNR Falcon X 18K" class="product-image">
+              <h3>JNR Falcon X 18K</h3>
+              <p class="product-meta">18000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-falcon-x-18k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Falcon-Pro-28K-Vape-Descartável-Portugal-28000-Tragadas.png" alt="Vape Descartavel JNR Falcon Pro 28K" class="product-image">
+              <h3>JNR Falcon Pro 28K</h3>
+              <p class="product-meta">28000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-falcon-pro-28k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Alien-10K-Vape-Descartável-Portugal-10000-Tragadas.png" alt="Vape Descartavel JNR Alien 10K" class="product-image">
+              <h3>JNR Alien 10K</h3>
+              <p class="product-meta">10000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-alien-10k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Shisha-Hookah-Max-22K-Vape-Descartável-Portugal-22000-Tragadas.png" alt="Vape Descartavel JNR Shisha Hookah Max 22K" class="product-image">
+
+              <h3>JNR Shisha Hookah Max 22K</h3>
+              <p class="product-meta">22000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Triple-110K-Vape-Descartável-Portugal-110000-Tragadas.png" alt="Vape Descartavel JNR Triple 110K" class="product-image">
+              <h3>JNR Triple 110K</h3>
+              <p class="product-meta">110000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-triple-110k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="JNR">
+              <img src="img/JNR-Falcon-Bar-48K-Vape-Descartável-Portugal-48000-Tragadas.png" alt="Vape Descartavel JNR Falcon Bar 48K" class="product-image">
+              <h3>JNR Falcon Bar 48K</h3>
+              <p class="product-meta">48000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/jnr-falcon-bar-48k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Eco-2-em-1-50K-Vape-Descartável-Portugal-50000-Tragadas.png" alt="Vape Descartavel Fumot ECO 2em1 50K" class="product-image">
+              <h3>Fumot ECO 2em1 50K</h3>
+              <p class="product-meta">50000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-eco-50k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Leopard-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Fumot Leopard 40K" class="product-image">
+              <h3>Fumot Leopard 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Tornado-30K-Vape-Descartável-Portugal-30000-Tragadas.png" alt="Vape Descartavel Fumot Tornado 30K" class="product-image">
+              <h3>Fumot Tornado 30K</h3>
+              <p class="product-meta">30000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-tornado-music-30k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-RandM-Tornado-15K-Vape-Descartável-Portugal-15000-Tragadas.png" alt="Vape Descartavel Fumot Tornado 15K" class="product-image">
+              <h3>Fumot Tornado 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-tornado-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-T9000-9K-Vape-Descartável-Portugal-9000-Tragadas.png" alt="Vape Descartavel Fumot T9000 9K" class="product-image">
+              <h3>Fumot T9000 9K</h3>
+              <p class="product-meta">9000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-t9000-9k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-RandM-Tornado-9K-Vape-Descartável-Portugal-9000-Tragadas.png" alt="Vape Descartavel Fumot RandM 9K" class="product-image">
+              <h3>Fumot RandM 9K</h3>
+              <p class="product-meta">9000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/randm-tornado-9k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Digital-Monkey-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Fumot Digital Monkey 40K" class="product-image">
+              <h3>Fumot Digital Monkey 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-digital-monkey-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Digital-Box-12K-Vape-Descartável-Portugal-12000-Tragadas.png" alt="Vape Descartavel Fumot Digital Box 12K" class="product-image">
+              <h3>Fumot Digital Box 12K</h3>
+              <p class="product-meta">12000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-digital-box-12k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Fumot">
+              <img src="img/Fumot-Tornado-25K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel Fumot Tornado 25K" class="product-image">
+              <h3>Fumot Tornado 25K</h3>
+              <p class="product-meta">25000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-tornado-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-AD-10K-Vape-Descartável-Portugal-10000-Tragadas.png" alt="Vape Descartavel Adalya AD10000 10K" class="product-image">
+              <h3>Adalya AD10000 10K</h3>
+              <p class="product-meta">10000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/fumot-tornado-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Adalya Aurora 40K" class="product-image">
+              <h3>Adalya Aurora 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel Adalya ADC25000" class="product-image">
+              <h3>Adalya ADC25000</h3>
+              <p class="product-meta">25000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-16K-Vape-Descartável-Portugal-16000-Tragadas.png" alt="Vape Descartavel Adalya ADL16000 16K" class="product-image">
+              <h3>Adalya ADL16000 16K</h3>
+              <p class="product-meta">16000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-AD3500-Vape-Descartável-Portugal-3500-Tragadas.png" alt="Vape Descartavel Adalya AD3500 3.5K" class="product-image">
+              <h3>Adalya AD3500 3.5K</h3>
+              <p class="product-meta">3500 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal">Compre já!</a>
+            </article>
+             <article class="product-card" data-brand="Adalya">
+              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Vape Descartavel Adalya ADL PRO 360 20K" class="product-image">
+              <h3>Adalya ADL PRO 360 20K</h3>
+              <p class="product-meta">20000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Al Fakher">
+              <img src="img/Al-Fakher-Crown-Bar-8K-Vape-Descartável-Portugal-8000-Tragadas.png" alt="Vape Descartavel Al Fakher Crown Bar 8K" class="product-image">
+              <h3>Al Fakher Crown Bar 8K</h3>
+              <p class="product-meta">8000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/al-fakher-crown-bar-8k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Al Fakher">
+              <img src="img/Al-Fakher-Crown-Bar-EHose-X-60K-Vape-Descartável-Portugal-60000-Tragadas.png" alt="Vape Descartavel Al Fakher Crown Bar E-Hose X" class="product-image">
+              <h3>Al Fakher Crown Bar E-Hose X</h3>
+              <p class="product-meta">60000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/al-fakher-crown-bar-e-hose-x-60k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Al Fakher">
+              <img src="img/Al-Fakher-Crown-Bar-Pro-8K-Vape-Descartável-Portugal-8000-Tragadas.png" alt="Vape Descartavel Al Fakher Crown Bar Pro 8K" class="product-image">
+              <h3>Al Fakher Crown Bar Pro 8K</h3>
+              <p class="product-meta">8000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/al-fakher-crown-bar-pro-8k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Al Fakher">
+              <img src="img/Al-Fakher-HyperMax-15K-Vape-Descartável-Portugal-15000-Tragadas.png" alt="Vape Descartavel Al Fakher Crown Bar HyperMax 15K" class="product-image">
+              <h3>Al Fakher Crown Bar HyperMax 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/al-fakher-crown-bar-hypermax-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Al Fakher">
+              <img src="img/Al-Fakher-Crown-Bar-Ultra-25K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel Al Fakher Crown Bar Ultra 25K" class="product-image">
+              <h3>Al Fakher Crown Bar Ultra 25K</h3>
+              <p class="product-meta">25000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/al-fakher-crown-bar-ultra-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Blur">
+              <img src="img/Blur-15K-Vape-Descartável-Portugal-15000-Tragadas.png" alt="Vape Descartavel Blur 15000 15K" class="product-image">
+              <h3>Blur 15000 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/blur-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Blur">
+              <img src="img/Blur-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Vape Descartavel Blur 20000 20K" class="product-image">
+              <h3>Blur 20000 20K</h3>
+              <p class="product-meta">20000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/blur-20k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Blur">
+              <img src="img/Blur-30K-Vape-Descartável-Portugal-30000-Tragadas.png" alt="Vape Descartavel Blur 30000 30K" class="product-image">
+              <h3>Blur 30000 30K</h3>
+              <p class="product-meta">30000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/blur-30k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Ghost">
+              <img src="img/Ghost-Galaxy-25K-Vape-Descartável-Portugal-25000-Tragadas.png" alt="Vape Descartavel Ghost Galaxy Vape 25K" class="product-image">
+              <h3>Ghost Galaxy Vape 25K</h3>
+              <p class="product-meta">25000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/ghost-galaxy-25k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Ghost">
+              <img src="img/Ghost-Smart-Vape-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Ghost Smart Vape 40K" class="product-image">
+              <h3>Ghost Smart Vape 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/ghost-smart-vape-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Ghost">
+              <img src="img/Ghost-Shisha-15K-Vape-Descartável-Portugal-15000-Tragadas.png" alt="Vape Descartavel Ghost Shisha Vape 15K" class="product-image">
+              <h3>Ghost Shisha Vape 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/ghost-shisha-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Ghost">
+              <img src="img/Ghost-Pro-3500-Vape-Descartável-Portugal-3500-Tragadas.png" alt="Vape Descartavel Ghost Pro Vape 3,5K" class="product-image">
+              <h3>Ghost Pro Vape 3,5K</h3>
+              <p class="product-meta">3500 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/ghost-pro-3500-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Hayati">
+              <img src="img/Hayati-Twist-5K-Vape-Descartável-Portugal-5000-Tragadas.png" alt="Vape Descartavel Hayati Twist Vape 5K" class="product-image">
+              <h3>Hayati Twist Vape 5K</h3>
+              <p class="product-meta">5000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/hayati-twist-5k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Hayati">
+              <img src="img/Hayati-Pro-Ultra-15K-Vape-Descartável-Portugal-2-Nicotina-15000-Tragadas.png" alt="Vape Descartavel Hayati Pro Ultra 15K" class="product-image">
+              <h3>Hayati Pro Ultra 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/hayati-pro-ultra-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Hayati">
+              <img src="img/Hayati-Pro-Ultra-15K-Vape-Descartável-Portugal-0-Nicotina-15000-Tragadas.png" alt="Vape Descartavel Hayati Pro Ultra 15K Sem Nicotina" class="product-image">
+              <h3>Hayati Pro Ultra 15K Sem Nicotina</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/hayati-pro-ultra-15k-0-nic-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Hayati">
+              <img src="img/Hayati-Pro-Max-4K-Vape-Descartável-Portugal-4000-Tragadas.png" alt="Vape Descartavel Hayati Pro Max Vape 4K" class="product-image">
+              <h3>Hayati Pro Max Vape 4K</h3>
+              <p class="product-meta">4000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/hayati-pro-max-4k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-King-Pro-40K-Vape-Descartável-Portugal-Blueberry-Sour-Raspberry-40000-Tragadas.png" alt="Vape Descartavel VapSolo King Pro 40K" class="product-image">
+              <h3>VapSolo King Pro 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Mars-50K-Vape-Descartável-Portugal-Black-Ice-Dragonfruit-50000-Tragadas.png" alt="Vape Descartavel VapSolo Mars 50K" class="product-image">
+              <h3>VapSolo Mars 50K</h3>
+              <p class="product-meta">50000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Master-70K-Vape-Descartável-Portugal-Watermelon-Ice-70000-Tragadas.png" alt="Vape Descartavel VapSolo Master 70K" class="product-image">
+              <h3>VapSolo Master 70K</h3>
+              <p class="product-meta">70000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Quads-80K-Vape-Descartável-Portugal-Strawberry-Ice-Lemon-Lime-80000-Tragadas.png" alt="Vape Descartavel VapSolo Quads 80K" class="product-image">
+              <h3>VapSolo Quads 80K</h3>
+              <p class="product-meta">80000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Super-15K-Vape-Descartável-Portugal-Lemon-Lime-15000-Tragadas.png" alt="Vape Descartavel VapSolo Super 15K" class="product-image">
+              <h3>VapSolo Super 15K</h3>
+              <p class="product-meta">15000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Triple-30K-Vape-Descartável-Portugal-Strawberry-Banana-Raspberry-Watermelon-Lemon-Lime-30000-Tragadas.png" alt="Vape Descartavel VapSolo Triple 30K" class="product-image">
+              <h3>VapSolo Triple 30K</h3>
+              <p class="product-meta">30000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Triple-Pro-60K-Vape-Descartável-Portugal-Blackcurrant-Ice-Pink-Lemonade-Kiwi-Passion-Fruit-Guava-60000-Tragadas.png" alt="Vape Descartavel VapSolo Triple Pro 60K" class="product-image">
+              <h3>VapSolo Triple Pro 60K</h3>
+              <p class="product-meta">60000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Twins-20K-Vape-Descartável-Portugal-Cherry-Cola-Juicy-Peach-Ice-20000-Tragadas.png" alt="Vape Descartavel VapSolo Twins 20K" class="product-image">
+              <h3>VapSolo Twins 20K</h3>
+              <p class="product-meta">20000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Viking-12K-Vape-Descartável-Portugal-Lemon-Lime-12000-Tragadas.png" alt="Vape Descartavel VapSolo Viking 12K" class="product-image">
+              <h3>VapSolo Viking 12K</h3>
+              <p class="product-meta">12000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="VapSolo">
+              <img src="img/VapSolo-Twins-Pro-50K-Vape-Descartável-Portugal-Cherry-Cola-Juicy-Peach-Ice-50000-Tragadas.png" alt="Vape Descartavel VapSolo Twins Pro 50K" class="product-image">
+              <h3>VapSolo Twins Pro 50K</h3>
+              <p class="product-meta">50000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Vozol">
+              <img src="img/Vozol-Gear-Power-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Vape Descartavel Vozol Gear Power 20K" class="product-image">
+              <h3>Vozol Gear Power 20K</h3>
+              <p class="product-meta">20000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vozol-gear-power-20k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            <article class="product-card" data-brand="Vozol">
+              <img src="img/Vozol-Rave-40K-Vape-Descartável-Portugal-40000-Tragadas.png" alt="Vape Descartavel Vozol Rave 40K" class="product-image">
+              <h3>Vozol Rave 40K</h3>
+              <p class="product-meta">40000 Tragadas</p>
+              <a class="btn btn--primary btn--block" href="https://vapeportugal.pt/products/vozol-rave-40k-vape-descartavel-portugal">Compre já!</a>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="colecciones">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Marcas</p>
+            <h2>Coleções</h2>
+            <p>
+              As coleções mais procuradas de cigarros 
+              eletrónicos descartáveis e sabores de vape que chegam diretamente ao seu puff favorito.
+            </p>
+          </div>
+
+          <div class="logo-grid">
+            <article class="logo-card">
+              <span class="logo-index">1</span>
+              <img src="img/vapsolo.png" alt="VapSolo Logo" class="logo-image">
+              <h3>VapSolo</h3>
+              <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">2</span>
+               <img src="img/JNR.png" alt="JNR Logo" class="logo-image">
+              <h3>JNR</h3>
+              <a href="https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">3</span>
+              <img src="img/Fumot.webp" alt="Fumot Logo" class="logo-image">
+              <h3>Fumot</h3>
+              <a href="https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">4</span>
+              <img src="img/MerryMi.png" alt="MerryMi Logo" class="logo-image">
+              <h3>MerryMi</h3>
+              <a href="https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">5</span>
+              <img src="img/Adalya.png" alt="Adalya Logo" class="logo-image">
+              <h3>Adalya</h3>
+              <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">6</span>
+              <img src="img/alfakher.png" alt="Al Fakher Logo" class="logo-image">
+              <h3>Al Fakher</h3>
+              <a href="https://vapeportugal.pt/collections/al-fakher-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">7</span>
+              <img src="img/Blur.webp" alt="Blur Logo" class="logo-image">
+              <h3>Blur</h3>
+              <a href="https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">8</span>
+              <img src="img/Ghost.png" alt="Ghost Logo" class="logo-image">
+              <h3>Ghost</h3>
+              <a href="https://vapeportugal.pt/collections/ghost-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">9</span>
+              <img src="img/Hayati.webp" alt="Hayati Logo" class="logo-image">
+              <h3>Hayati</h3>
+              <a href="https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+            <article class="logo-card">
+              <span class="logo-index">10</span>
+              <img src="img/Vozol.webp" alt="Vozol Logo" class="logo-image">
+              <h3>Vozol</h3>
+              <a href="https://vapeportugal.pt/collections/vozol-vapes-descartaveis-portugal">Ver productos</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="opiniones">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Testemunhos</p>
+            <h2>Opiniões dos nossos clientes</h2>
+          </div>
+          <div class="review-grid">
+            <article class="review-card">
+              <img src="img/MerryMi-Vape-Descartável-Portugal.jpg" alt="MerryMi Vape Descartável" class="review-avatar">
+              <h3>Inês K.</h3>
+              <p class="stars">★★★★★</p>
+              <p>
+                Adorei mesmo! O sabor é super intenso e dura imenso tempo. Já não compro noutro sítio.
+              </p>
+            </article>
+            <article class="review-card">
+              <img src="img/JNR-Vape-Descartável-Portugal.jpg" alt="JNR Vape Descartável" class="review-avatar">
+              <h3>Mariana M.</h3>
+              <p class="stars">★★★★★</p>
+              <p>
+                Entrega rápida aqui no Porto 👌 e o vaper tem muitas tragadas como dizem. Recomendo!
+              </p>
+            </article>
+            <article class="review-card">
+              <img src="img/Vapsolo-Vape-Descartável-Portugal.jpg" alt="Vapsolo Vape Descartável" class="review-avatar">
+              <h3>Maria S.</h3>
+              <p class="stars">★★★★★</p>
+              <p>
+                Já experimentei vários e os da VapSolo foram dos melhores que encontrei aqui no Porto. 
+                Dura mesmo muito e é super prático para o dia a dia.
+              </p>
+            </article>
+            <article class="review-card">
+              <img src="img/Fumot-Vape-Descartável-Portugal.jpg" alt="Fumot Vape Descartável" class="review-avatar">
+              <h3>Daniela O.</h3>
+              <p class="stars">★★★★★</p>
+              <p>
+                Top mesmo 🔥 vapor suave, sabor forte e entrega rápida para o Porto.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Vantagens</p>
+            <h2>Tudo para o seu vape descartável</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <img src="img/Gratuito.webp" alt="Fast Delivery Icon" class="feature-icon">
+              <div class="feature-card__content">
+              <h3>Envio expresso</h3>
+              <p>
+                Receba cigarros eletrónicos em 3 a 5 dias, 
+                com muitas tragadas prontas a desfrutar.
+              </p>
+              <a href="https://vapeportugal.pt/">Ver más</a>
+              </div>
+            </article>
+            <article class="feature-card">
+              <img src="img/Descuentos.webp" alt="Discounts Icon" class="feature-icon">
+              <div class="feature-card__content">
+              <h3>Descontos permanentes</h3>
+              <p>
+                Poupe até 50% em packs de vapes descartáveis e continue com as suas tragadas sem pausas.
+              </p>
+              <a href="https://vapeportugal.pt/">Ver más</a>
+              </div>
+            </article>
+            <article class="feature-card">
+              <img src="img/Sabores.webp" alt="Flavors Icon" class="feature-icon">
+              <div class="feature-card__content">
+              <h3>Sabores de vape</h3>
+              <p>
+                Escolha entre uma grande variedade de sabores de vape para 
+                os seus cigarros eletrónicos descartáveis.
+              </p>
+              <a href="https://vapeportugal.pt/">Ver mais</a>
+              </div>
+            </article>
+          </div>
+          <div class="section-copy" contenteditable="true">
+            <p>
+              Descubra a melhor seleção de vapes descartáveis em Portugal, 
+              com destaque para Porto, onde encontra modelos com milhares de 
+              tragadas, excelente desempenho e uma ampla variedade de sabores de 
+              vape. Cada cigarro eletrónico descartável foi desenvolvido para 
+              oferecer uma experiência prática e consistente, ideal para quem 
+              procura qualidade numa vape shop em Porto. Com opções para todos 
+              os perfis, incluindo alternativas sem nicotina, garantimos conveniência, 
+              longa duração e satisfação em cada utilização.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+      <div class="footer-wrap">
+        <div class="footer-main">
+          <div class="footer-col">
+            <a href="https://vapeportugal.pt/" class="footer-brand" aria-label="Vape Descartável home">
+              <img src="favicon-96x96.png" alt="Vape Porto logo" class="footer-logo" />
+              <span class="footer-brand-text">Vape Descartável em Porto</span>
+            </a>
+            <h3>Produtos</h3>
+            <div class="footer-links">
+              <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo</a>
+              <a href="https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal">JNR</a>
+              <a href="https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal">Fumot</a>
+              <a href="https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal">MerryMi</a>
+              <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya</a>
+              <a href="https://vapeportugal.pt/collections/al-fakher-vapes-descartaveis-portugal">Al Fakher</a>
+              <a href="https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal">Blur</a>
+              <a href="https://vapeportugal.pt/collections/ghost-vapes-descartaveis-portugal">Ghost</a>
+              <a href="https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal">Hayati</a>
+              <a href="https://vapeportugal.pt/collections/vozol-vapes-descartaveis-portugal">Vozol</a>
+
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Links Rápidos</h3>
+            <div class="footer-links">
+              <a href="https://vapeportugal.pt/">Página Inicial</a>
+              <a href="https://vapeportugal.pt/">Produtos</a>
+              <a href="https://vapeportugal.pt/">Vape Descartável</a>
+              <a href="https://vapeportugal.pt/">FAQ</a>
+              <a href="https://vapeportugal.pt/">Sobre Nós</a>
+              <a href="https://vapeportugal.pt/">Contacto</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contacto</h3>
+            <div class="footer-links">
+              <a href="https://vapeportugal.pt/">info@vapeportugal.pt</a>
+              <a href="https://vapeportugal.pt/">+351 935 718 678</a>
+              <a href="https://vapeportugal.pt/">Compra Por Grosso</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-expand">
+          <button
+            id="cities-toggle"
+            class="footer-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="portugal-cities"
+          >
+            <span>Vapes Descartáveis em Portugal</span>
+            <span class="footer-toggle-arrow">v</span>
+          </button>
+
+          <ul id="portugal-cities" class="footer-cities" hidden>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Lisboa</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Porto</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Braga</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Coimbra</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Faro</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Aveiro</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Cascais</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Sintra</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Lagos</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Albufeira</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Évora</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Guimarães</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Viseu</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Setúbal</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Leiria</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Portimão</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Funchal</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Vila Nova de Gaia</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Ponta Delgada</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Bragança</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Viana do Castelo</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Covilhã</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Tomar</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Beja</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Elvas</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Tavira</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Olhão</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Peniche</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Nazaré</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Ericeira</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Torres Vedras</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Barcelos</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Chaves</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Espinho</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Matosinhos</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Amarante</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Santarém</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Castelo Branco</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Guarda</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Lamego</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Almada</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Oeiras</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Seixal</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Montijo</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Sesimbra</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Palmela</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Entroncamento</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Abrantes</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Figueira da Foz</a></li>
+            <li><a href="https://vapeportugal.pt/">Vapes Descartáveis em Peso da Régua</a></li>
+          </ul>
+
+          <p class="footer-copy">
+            © <span id="footer-year"></span> VapePorto.pt - Vape Descartável em Portugal. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
